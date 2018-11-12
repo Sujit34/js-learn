@@ -64,4 +64,3 @@ function f1 {
   - Special `this` object.
   - Reference to its Env.
 - Global scope does not have outer Env. it's the most outer scope.
-- 

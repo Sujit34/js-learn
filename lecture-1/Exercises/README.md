@@ -20,10 +20,10 @@ var d = function() {
 
 ```js
 function getName(name) {
-	if (name) {
-		console.log(firstName);
-		let firstName = name;
-	}
+  if (name) {
+    console.log(firstName);
+    let firstName = name;
+  }
 }
 
 getName('Alice');

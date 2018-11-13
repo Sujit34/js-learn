@@ -1,7 +1,7 @@
 function getName(name) {
     if (name) {
-        let firstName = undefined;
-      console.log(firstName); //undefined
+        let firstName;
+      console.log(firstName); 
        firstName = name;
     }
   }

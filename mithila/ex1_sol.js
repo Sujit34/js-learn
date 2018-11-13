@@ -7,10 +7,12 @@ function b() {
   }
 
   a = b();
+  console.log('>>>a: ', a); //undefined
   c = d();
+  console.log('>>>c: ', c); // d is not a function
   d = function() {
     return b();
   };
 
-  console.log('>>>a: ', a); //undefined
-  console.log('>>>c: ', c); // d is not a function
+  
+  

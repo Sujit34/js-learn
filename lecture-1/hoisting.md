@@ -125,20 +125,22 @@ hoistingOrder() // ??
 
 ```
 
+### E6.
 
 ```js
 function f1 () {
 
     {
-    const name = undefined;
+    const name // <-- not undefined, not initialized?
     function f2() {
       var p     // undefined;
       var p     // undefined 
       return 1;
     }
+    console.log('name: ', name);  // Error !!
     const name = 'Sajib';
   }
 
-  console.log('name: ', name);
+  console.log('name:>>> ', name); // output: name:>>> , not Error!
 }
 ```

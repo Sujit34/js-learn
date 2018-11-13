@@ -29,5 +29,5 @@ function getName(name) {
 getName('Alice');
 ```
 
-#### Ex-3: Explain the importance of JavaScript with an example?
+#### Ex-3: Explain the importance of `Hoisting` in JavaScript with an example?
 

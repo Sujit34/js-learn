@@ -125,20 +125,49 @@ hoistingOrder() // ??
 
 ```
 
+### E6.
 
 ```js
 function f1 () {
 
     {
-    const name = undefined;
+    const name // <-- not undefined, not initialized?
     function f2() {
       var p     // undefined;
       var p     // undefined 
       return 1;
     }
+    console.log('name: ', name);  // Error !!
     const name = 'Sajib';
   }
 
-  console.log('name: ', name);
+  // console.log('test: ', test);
+
 }
+```
+
+Q. Why hoisting is important?
+
+```js
+
+function f1(val) {
+// val --> 1, 6, 16, 36
+
+  if (val > 20) return val;
+
+    return f2(val + 2); // 37, 38, 39
+}
+
+function f2(val) {
+  // val --> 3, 8, 18
+    return f3(val) + 1; // 37, 38, 39
+}
+
+function f3(val) {
+// val --> 3, 8, 18
+  return f1(val * 2); // 36, 37, 38
+}
+
+f1(1);  // 39
+
 ```

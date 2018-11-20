@@ -1,0 +1,20 @@
+<button id="btn-0">Button 1</button>
+<button id="btn-1">Button 2</button>
+<button id="btn-2">Button 3</button>
+
+<script type="text/javascript">
+  const prizes = ['A Unicorn!', 'A Hug!', 'Fresh Laundry!'];
+  for (let btnNum = 0; btnNum < prizes.length; btnNum++) {
+
+    // using Immediately-invoked Function Expressions with parameter
+
+    // For each of our buttons, when the user clicks it...
+    document.getElementById(`btn-${btnNum}`).onclick = (function() {
+
+      // Tell her what she's won!
+      return function() {
+          alert(prizes[btnNum]);
+      }
+    })(btnNum);
+  }
+</script>

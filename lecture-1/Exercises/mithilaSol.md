@@ -27,11 +27,13 @@ function b() {
     if (name) {
         let firstName;
       console.log(firstName); 
-       firstName = name;
+      let firstName = name;
     }
   }
  
   
   getName('Alice'); 
+
+  // Output will find error 
 
    ```

@@ -1,6 +1,6 @@
-Ex1 sol :
+# Ex1 sol :
 
-
+```Javascript
 var a = undefined;
 var c = undefined;
 var d = undefined;
@@ -16,9 +16,13 @@ function b() {
   d = function() {
     return b();
   };
+  ```
 
-  Ex2 sol :
 
+# Ex2 sol :
+
+
+''Javascript
   function getName(name) {
     if (name) {
         let firstName;
@@ -26,5 +30,8 @@ function b() {
        firstName = name;
     }
   }
+ 
   
   getName('Alice'); 
+
+   ```

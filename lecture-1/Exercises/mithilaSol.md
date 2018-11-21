@@ -22,7 +22,7 @@ function b() {
 # Ex2 sol :
 
 
-''Javascript
+```Javascript
   function getName(name) {
     if (name) {
         let firstName;

@@ -1,9 +1,9 @@
 
-Exercise_1 Solutions:
+# Exercise_1 Solutions:#
 
 
-1.By using let instead of var
-
+####1.By using let instead of var####
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,11 +31,12 @@ Exercise_1 Solutions:
 </script>
 </body>
 </html>
+```
 
 
+####2. By using IIFE####
 
-2. By using IIFE
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,14 +66,15 @@ Exercise_1 Solutions:
 
 </body>
 </html>
+```
 
 
+#Exercise_2 Solutions: #
 
-Exercise_2 Solutions:
 
+####1. By using let instead of var :####
 
-1. By using let instead of var :
-
+```javascript
 function assignTorpedo (name, passengerArray) {
     var torpedoAssignment;
     for (let i = 0; i < passengerArray.length; i++) {
@@ -92,11 +94,12 @@ function assignTorpedo (name, passengerArray) {
   var giveAssignment = assignTorpedo("Alice", subPassengers);
   
   giveAssignment();
+```
 
 
+  ####2.By using IIFE####
 
-  2.By using IIFE
-
+```javascript
    function assignTorpedo (name, passengerArray) {
     var torpedoAssignment;
 
@@ -117,7 +120,7 @@ function assignTorpedo (name, passengerArray) {
   var giveAssignment = assignTorpedo("Alice", subPassengers);
   
 giveAssignment();
-
+```
 
 3.By using break
 

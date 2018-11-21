@@ -1,8 +1,8 @@
 
-# Exercise_1 Solutions:#
+# Exercise_1 Solutions:
 
 
-####1.By using let instead of var####
+##1.By using let instead of var
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -34,7 +34,7 @@
 ```
 
 
-####2. By using IIFE####
+##2. By using IIFE
 
 ```html
 <!DOCTYPE html>
@@ -69,10 +69,10 @@
 ```
 
 
-#Exercise_2 Solutions: #
+#Exercise_2 Solutions: 
 
 
-####1. By using let instead of var :####
+##1. By using let instead of var :
 
 ```javascript
 function assignTorpedo (name, passengerArray) {
@@ -122,9 +122,9 @@ function assignTorpedo (name, passengerArray) {
 giveAssignment();
 ```
 
-3.By using break
+##3.By using break
 
-
+```javascript
 function assignTorpedo (name, passengerArray) {
     var torpedoAssignment;
 
@@ -146,7 +146,7 @@ function assignTorpedo (name, passengerArray) {
   var giveAssignment = assignTorpedo("Alice", subPassengers);
   
 giveAssignment();
-
+```
 
 
 

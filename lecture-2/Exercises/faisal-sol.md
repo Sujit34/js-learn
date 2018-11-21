@@ -46,7 +46,7 @@ Here we can use an attribute of a button `onclick` which will invoke a function 
 ```
 
 ## _Solution of Ex-2:-_
-The right output don't occur because `i` is `var` here. So it will hoisted in the `assignTorpedo`'s functional scope' by initialing `undefined`. As loop continues and the function `torpedoAssignment` will store the reference of that variable `i` in it's closure. So in it's closure, it will store `i` is equal to `6` after the loop ends. So we can fix this by following these:
+The right output don't occur because `i` is `var` here. So it will hoisted in the `assignTorpedo`'s functional scope by initializing `undefined`. As loop continues and the function `torpedoAssignment` will store the reference of that variable `i` in it's closure. So in it's closure, it will store `i` is equal to `6` after the loop ends. So we can fix this by following these:
 ##### 1.Changing `var` to `let`:-
 ```js
 for (let i = 0; i < passengerArray.length; i++) {

@@ -1,4 +1,5 @@
-#### Ex-1: What's wrong with the following codes? Fix it: (write as many solutions as you can)
+#### Ex-1: What's wrong with the following codes?
+(write as many solutions as you can)
 
 ```js
 <button id="btn-0">Button 1</button>
@@ -19,13 +20,13 @@
 </script>
 ```
 
-#### Ex-2: Fix the following code: (write as many solutions as you can)
+#### Ex-2: Fix the following code: Fix it: (You can modify the codes, functions parameter/return objects etc. & write as many solutions as you can)
 
 ```js
 function assignTorpedo (name, passengerArray) {
   var torpedoAssignment;
   for (var i = 0; i < passengerArray.length; i++) {
-    if (passengerArray[i] == name {
+    if (passengerArray[i] == name) {
       torpedoAssignment = function () {
         console.log('name: ', name);
         console.log('#: ', i+1);

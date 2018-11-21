@@ -40,6 +40,6 @@ var subPassengers = ["Luke", "Leia", "Han", "Alice", "Yoda", "Boba"];
 var giveAssignment = assignTorpedo("Alice", subPassengers);
 
 giveAssignment();
-// output: name: Alice #: 6
+// output: name: Alice #: 7
 // correct output should be: name: Alice #: 4
 ```
